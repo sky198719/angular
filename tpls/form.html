@@ -1,0 +1,8 @@
+<form ng-controller="formCtr">
+	<label>用户名：</label><input type="text" ng-model="formData.userName" />
+	<label>密码：</label><input type="password" ng-model="formData.passWord" />
+	<input type="checkbox" ng-model="formData.isAutoLogin" />是否自动登录
+	<button ng-click="checkForm()" ng-show="formData.isAutoLogin">查询表单信息</button>
+</form>
+<back></back>
+<index></index>

@@ -1,0 +1,17 @@
+{
+	"resultCode" : 200000,
+	"message" : "成功",
+	"data" : {
+		"code" : 0,
+		"msg" : "成功",
+		"data" : {
+			"pageSize" : 10,
+			"totalPage" : 5,
+			"items" : [
+				{"name":"show","url":"#!/index/list/show"},
+				{"name":"bind","url":"#!/index/list/bind"},
+				{"name":"click","url":"#!/index/list/click"}
+			]
+		}
+	}
+}

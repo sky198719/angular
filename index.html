@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-control" content="no-cache">
+<meta http-equiv="Cache" content="no-cache">
+<title>angularjs测试</title>
+<style>
+*{padding:0; margin:0; list-style-type:none;}
+img{width:100px;}
+.typeRed{color:#ff0000;}
+.typeBlue{color:#0000ff;}
+#backgroundRed{background:#ff0000;}
+#backgroundBlue{background:#0000ff;}
+</style>
+</head>
+
+<body>
+	<div ui-view ng-controller="commonCtr"></div>
+</body>
+<script src="js/lib/angular.js"></script>
+<script src="js/lib/angular-ui-router.js"></script>
+<script src="js/appRoute.js"></script>
+<script src="js/appController.js"></script>
+<script src="js/appDirective.js"></script>
+</html>
