@@ -18,3 +18,17 @@ appModule.directive('index',function(){
 		replace : true
 	}
 });
+
+appModule.directive('prepage',function(){
+	return {
+		restrict : 'E',
+		template :'<span ng-click="pre()">返回前一页</span>',
+		replace : true,
+		link : function($scope){
+			$scope.pre = function(){
+				history.go(-1);
+				alert('返回上一页');
+			}
+		}
+	}
+});
